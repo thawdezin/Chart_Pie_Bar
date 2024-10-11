@@ -14,6 +14,7 @@
 		64DE015D2C8992F7007EE389 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 64DE015C2C8992F7007EE389 /* Base */; };
 		64DE015F2C8992F9007EE389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DE015E2C8992F9007EE389 /* Assets.xcassets */; };
 		64DE01622C8992F9007EE389 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 64DE01612C8992F9007EE389 /* Base */; };
+		CB0998002CB8D1A000E659E0 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0997FF2CB8D19B00E659E0 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		64DE01612C8992F9007EE389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64DE01632C8992F9007EE389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1CF7B8D81EED3B3BAF4CAFA /* Pods-Chart_Pie_Bar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart_Pie_Bar.debug.xcconfig"; path = "Target Support Files/Pods-Chart_Pie_Bar/Pods-Chart_Pie_Bar.debug.xcconfig"; sourceTree = "<group>"; };
+		CB0997FF2CB8D19B00E659E0 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E7392B22AF9165EDF877123F /* Pods_Chart_Pie_Bar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chart_Pie_Bar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 		64DE01542C8992F7007EE389 /* Chart_Pie_Bar */ = {
 			isa = PBXGroup;
 			children = (
+				CB0997FF2CB8D19B00E659E0 /* Helper.swift */,
 				64DE01552C8992F7007EE389 /* AppDelegate.swift */,
 				64DE01572C8992F7007EE389 /* SceneDelegate.swift */,
 				64DE01592C8992F7007EE389 /* ViewController.swift */,
@@ -209,6 +212,7 @@
 				64DE015A2C8992F7007EE389 /* ViewController.swift in Sources */,
 				64DE01562C8992F7007EE389 /* AppDelegate.swift in Sources */,
 				64DE01582C8992F7007EE389 /* SceneDelegate.swift in Sources */,
+				CB0998002CB8D1A000E659E0 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
